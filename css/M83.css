@@ -84,7 +84,7 @@ nav ul li a:hover {
 }
 
 
-/******************************************* DESPLEGABLES *******************************************/
+/******************************************* DESPLEGABLES *************************************POR SI ACASO******/
 
 .nDesplegables {
     margin-right: 2%;
@@ -115,9 +115,10 @@ nav ul li .listadoDesplegables {
 
 .slider-container {
     position: relative;
-    max-width: 800px;
-    margin: 50px auto;
+    max-width: 600px;
+    margin: 50px auto 50px 350px; /* top, right, bottom, left */
 }
+
 
 .slider {
     display: flex;
@@ -126,7 +127,7 @@ nav ul li .listadoDesplegables {
 
 .slider img {
     width: 100%;
-    height: 525px;
+    height: 400px;
 }
 
 button {
@@ -163,7 +164,7 @@ body {
 
 .Suscripcion {
 
-    width: 380px;
+    width: 350px;
     background: #ff00ff;
     padding: 50px;
 
@@ -231,7 +232,7 @@ body {
 .columnaAnuncio {
 
     margin-left: 1.5%;
-    margin-top: -63%;
+    margin-top: -93%;
 
 }
 
@@ -268,6 +269,11 @@ body {
     justify-content: space-between;
     gap: 50px;
 }
+.columnaIFrame iframe {
+    width: 300px;
+    height: 800px; 
+}
+
 
 /******************************************* DEL TEXTO PRINCIPAL *******************************************/
 
@@ -276,8 +282,8 @@ body {
     height: 595px;
     font-size: medium;
     margin: auto;
-    margin-top: -26%;
-    background-image: url("../../../img/paginaPrincipal/M83/fondillo.jpg");
+    margin-top: -46%;
+    background-image: url("../img/fondillo.jpg");
     background-size: cover;
     background-position: center;
 
