@@ -84,7 +84,7 @@ nav ul li a:hover {
 
 
 #elLogo {
-    margin-left: 5.5%;
+    margin-left: -5%;
 }
 
 #enlaces {
@@ -252,7 +252,7 @@ body {
 .columnaAnuncio {
 
     margin-left: 1.5%;
-    margin-top: -63%;
+    margin-top: -65%;
 
 }
 
@@ -285,7 +285,7 @@ body {
     flex-direction: column;
     align-items: flex-end;
     margin-right: 1.5%;
-    margin-top: -30%;
+    margin-top: -45%;
     justify-content: space-between;
     gap: 50px;
 }
@@ -297,7 +297,7 @@ body {
     height: 595px;
     font-size: medium;
     margin: auto;
-    margin-top: -26%;
+    margin-top: -8%;
     background-image: url("../../../img/paginaPrincipal/M83/fondillo.jpg");
     background-size: cover;
     background-position: center;
