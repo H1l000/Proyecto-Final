@@ -2,6 +2,48 @@ let slideIndex = 0;
 const slides = document.querySelectorAll('.slider img');
 const totalSlides = slides.length;
 let slideInterval; // Variable para hacer el cambio automático
+const data = {
+  canciones: [
+    {
+      titulo: "Midnight City",
+      duracion: "4:03",
+      album: "Hurry Up, We're Dreaming"
+    },
+    {
+      titulo: "Wait",
+      duracion: "5:43",
+      album: "Hurry Up, We're Dreaming"
+    },
+    {
+      titulo: "Outro",
+      duracion: "4:07",
+      album: "Hurry Up, We're Dreaming"
+    },
+    {
+      titulo: "Do It, Try It",
+      duracion: "3:37",
+      album: "Junk"
+    }
+  ]
+};
+
+const contenedor = document.getElementById('listaCanciones');
+
+function mostrarCanciones(data) {
+  let html = '<ul>';
+
+  data.canciones.forEach(cancion => {
+    html += `<li>
+      <strong>${cancion.titulo}</strong> — Duración: ${cancion.duracion}, Álbum: ${cancion.album}
+    </li>`;
+  });
+
+  html += '</ul>';
+
+  contenedor.innerHTML = html;
+}
+
+mostrarCanciones(data);
 
 function muestraFoto(index) {
     if (index < 0) {

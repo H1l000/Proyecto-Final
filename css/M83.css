@@ -35,6 +35,27 @@ header a:hover {
     color: #222;
 }
 
+/******************************************* JSON ******************************************/
+#listaCanciones {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #e42eb6;
+    border-radius: 8px;
+  }
+
+  #listaCanciones ul {
+    list-style-type: none;
+  }
+
+  #listaCanciones li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #6150fd;
+  }
+
+  
 /******************************************* NAV *******************************************/
 nav ul {
     list-style-type: none;
